@@ -28,7 +28,7 @@ Webpack's eslint config contains all of [Airbnb's ESLint rules](https://github.c
 
 <h2 align="center">eslint setup</h2>
 
-**.eslintrc.js || .yml || .json**
+_In your .eslintrc.js || .yml || .json add ..._
 
 ```js
 // Add to your .eslintrc
