@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-webpack",
+  "version": "1.0.0-alpha.0",
+  "description": "Provides Webpacks's .eslintrc as an extensible shared config",
+  "main": "index.js",
+  "scripts": {
+    "prelint": "editorconfig-tools check * rules/* test/*",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^11.0.1"
+  },
+  "devDependencies": {
+    "editorconfig-tools": "^0.1.1",
+    "eslint": "^3.13.0",
+    "eslint-find-rules": "^1.14.3"
+  },
+  "peerDependencies": {
+    "eslint": "^3.13.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webpack-contrib/eslint-config-webpack.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "webpack",
+    "javascirpt"
+  ],
+  "author": "Joshua Wiens (https://twitter.com/@d3viant0ne)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webpack-contrib/eslint-config-webpack/issues"
+  },
+  "homepage": "https://github.com/webpack-contrib/eslint-config-webpack#readme"
+}
