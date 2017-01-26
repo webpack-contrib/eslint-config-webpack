@@ -58,8 +58,8 @@ Webpack's eslint config contains all of [Airbnb's ESLint rules](https://github.c
 [npm]: https://img.shields.io/npm/v/eslint-config-webpack.svg
 [npm-url]: https://npmjs.com/package/eslint-config-webpack
 
-[deps]: https://david-dm.org/webpack/eslint-config-webpack.svg
-[deps-url]: https://david-dm.org/webpack/eslint-config-webpack
+[deps]: https://david-dm.org/webpack-contrib/eslint-config-webpack.svg
+[deps-url]: https://david-dm.org/webpack-contrib/eslint-config-webpack
 
 [chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
 [chat-url]: https://gitter.im/webpack/webpack
