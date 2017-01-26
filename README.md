@@ -7,7 +7,7 @@
 <div align="center">
   <!-- replace with accurate logo e.g from https://worldvectorlogo.com/ -->
   <img width="200" height="200"
-    src="https://worldvectorlogo.com/logo/eslint-1.svg">
+    src="https://cdn.worldvectorlogo.com/logos/eslint.svg">
   <a href="https://github.com/webpack/webpack">
     <img width="200" height="200" vspace="" hspace="25"
       src="https://worldvectorlogo.com/logos/webpack.svg">
