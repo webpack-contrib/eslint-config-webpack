@@ -50,11 +50,13 @@ Webpack's eslint config contains all of [Airbnb's ESLint rules](https://github.c
       <td align="center">
         <img width="150" height="150"
         src="https://avatars3.githubusercontent.com/u/166921?v=3&s=150">
+        </br>
         <a href="https://github.com/bebraw">Juho Vepsäläinen</a>
       </td>
     </tr>
   <tbody>
 </table>
+
 
 [npm]: https://img.shields.io/npm/v/eslint-config-webpack.svg
 [npm-url]: https://npmjs.com/package/eslint-config-webpack
