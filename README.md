@@ -24,7 +24,7 @@ npm i -D eslint-config-webpack
 
 <h2 align="center">Usage</h2>
 
-Webpack's eslint config contains all of [Airbnb's ESLint rules](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), including ECMAScript 6+ but removes all the React-centric properties and plugins. It requires `eslint` and `eslint-plugin-import`.
+Webpack's eslint config contains all of our ESLint rules, including ECMAScript 6+ and is similar to [Airbnb's ESLint base rules](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base). It requires `eslint` and `eslint-plugin-import`.
 
 <h2 align="center">eslint setup</h2>
 
