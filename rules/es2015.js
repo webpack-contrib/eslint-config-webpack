@@ -93,6 +93,7 @@ module.exports = {
     }],
 
     // require let or const instead of var
+    // http://eslint.org/docs/rules/no-var
     'no-var': 'error',
 
     // require or disallow method and property shorthand syntax for object literals
@@ -128,10 +129,6 @@ module.exports = {
     // disallow parseInt() in favor of binary, octal, and hexadecimal literals
     // http://eslint.org/docs/rules/prefer-numeric-literals
     'prefer-numeric-literals': 'error',
-
-    // suggest using Reflect methods where applicable
-    // http://eslint.org/docs/rules/prefer-reflect
-    'prefer-reflect': 'on',
 
     // require rest parameters instead of arguments
     // http://eslint.org/docs/rules/prefer-rest-params
