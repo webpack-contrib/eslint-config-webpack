@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    './rules/stylistic-issues',
     './rules/es2015'
   ].map(require.resolve),
   parserOptions: {
