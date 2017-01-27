@@ -31,6 +31,16 @@ module.exports = {
       },
     }],
 
+    // require trailing commas in multiline object literals
+    // http://eslint.org/docs/rules/comma-dangle
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'always-multiline',
+    }],
+
     // enforce consistent spacing before and after commas
     // http://eslint.org/docs/rules/comma-spacing
     'comma-spacing': ['error', { before: false, after: true }],
