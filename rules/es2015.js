@@ -119,7 +119,7 @@ module.exports = {
 
     // require destructuring from arrays and/or objects
     // http://eslint.org/docs/rules/prefer-destructuring
-    'prefer-destructuring': ['on', {
+    'prefer-destructuring': ['error', {
       array: true,
       object: true,
     }, {

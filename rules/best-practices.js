@@ -293,7 +293,7 @@ module.exports = {
 
     // require using Error objects as Promise rejection reasons
     // http://eslint.org/docs/rules/prefer-promise-reject-errors
-    'prefer-promise-reject-errors': ['on', { allowEmptyReject: true }],
+    'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
 
     // enforce the consistent use of the radix argument when using parseInt()
     // http://eslint.org/docs/rules/radix

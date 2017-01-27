@@ -77,7 +77,7 @@ module.exports = {
 
     // enforce the consistent use of either function declarations or expressions
     // http://eslint.org/docs/rules/func-style
-    'func-style': ['on', 'expression'],
+    'func-style': ['error', 'expression'],
 
     // disallow specified identifiers
     // http://eslint.org/docs/rules/id-blacklist
@@ -129,7 +129,7 @@ module.exports = {
 
     // enforce position of line comments
     // http://eslint.org/docs/rules/line-comment-position
-    'line-comment-position': ['on', {
+    'line-comment-position': ['error', {
       position: 'above',
       ignorePattern: '',
       applyDefaultPatterns: true,
@@ -190,7 +190,7 @@ module.exports = {
 
     // enforce newlines between operands of ternary expressions
     // http://eslint.org/docs/rules/multiline-ternary
-    'multiline-ternary': ['on', 'never'],
+    'multiline-ternary': ['error', 'never'],
 
     // require constructor names to begin with a capital letter
     // http://eslint.org/docs/rules/new-cap
