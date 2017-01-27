@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    './rules/variables',
     './rules/node',
     './rules/stylistic-issues',
     './rules/es2015'
