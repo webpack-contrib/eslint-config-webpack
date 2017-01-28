@@ -3,6 +3,10 @@
   "version": "1.0.0-alpha.1",
   "description": "Provides Webpacks's .eslintrc as an extensible shared config",
   "main": "index.js",
+  "files":[
+    "index.js",
+    "rules"
+  ],
   "scripts": {
     "prelint": "editorconfig-tools check * rules/* test/*",
     "lint": "eslint .",
