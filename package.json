@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-webpack",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Provides Webpacks's .eslintrc as an extensible shared config",
   "main": "index.js",
   "scripts": {
