@@ -6,13 +6,14 @@
   "scripts": {
     "prelint": "editorconfig-tools check * rules/* test/*",
     "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
   },
   "dependencies": {},
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
     "eslint": "^3.13.0",
-    "eslint-find-rules": "^1.14.3"
+    "eslint-find-rules": "^1.14.3",
+    "standard-version": "^4.0.0"
   },
   "peerDependencies": {
     "eslint": "^3.13.0"
