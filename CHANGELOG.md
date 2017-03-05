@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.0.0...v1.1.0) (2017-03-05)
+
+
+### Features
+
+* Rule updates for defaults ([#4](https://github.com/webpack-contrib/eslint-config-webpack/issues/4)) ([b522f26](https://github.com/webpack-contrib/eslint-config-webpack/commit/b522f26))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.0.0-alpha.1...v1.0.0) (2017-01-28)
 
