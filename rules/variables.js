@@ -26,7 +26,7 @@ module.exports = {
 
     // disallow variable declarations from shadowing variables declared in the outer scope
     // http://eslint.org/docs/rules/no-shadow
-    'no-shadow': 'error',
+    'no-shadow': 'warn',
 
     // disallow initializing variables to undefined
     // http://eslint.org/docs/rules/no-undef-init
