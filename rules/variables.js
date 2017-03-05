@@ -26,7 +26,7 @@ module.exports = {
 
     // disallow variable declarations from shadowing variables declared in the outer scope
     // http://eslint.org/docs/rules/no-shadow
-    'no-shadow': 'error',
+    'no-shadow': 'warn',
 
     // disallow initializing variables to undefined
     // http://eslint.org/docs/rules/no-undef-init
@@ -46,6 +46,6 @@ module.exports = {
 
     // disallow the use of variables before they are defined
     // http://eslint.org/docs/rules/no-use-before-define
-    'no-use-before-define': 'error'
+    'no-use-before-define': ['error', { functions: false, classes: true, variables: true  }],
   }
 };

@@ -77,7 +77,7 @@ module.exports = {
 
     // enforce the consistent use of either function declarations or expressions
     // http://eslint.org/docs/rules/func-style
-    'func-style': ['error', 'expression'],
+    'func-style': 'off',
 
     // disallow specified identifiers
     // http://eslint.org/docs/rules/id-blacklist
@@ -282,8 +282,6 @@ module.exports = {
     // http://eslint.org/docs/rules/no-restricted-syntax
     'no-restricted-syntax': [
       'error',
-      'ForInStatement',
-      'ForOfStatement',
       'LabeledStatement',
       'WithStatement',
     ],
