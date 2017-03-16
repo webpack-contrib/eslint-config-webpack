@@ -1,20 +1,20 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: [
-    'import'
+    'import',
   ],
 
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.json']
-      }
+        extensions: ['.js', '.json'],
+      },
     },
     'import/extensions': [
       '.js',
@@ -69,19 +69,32 @@ module.exports = {
     // paths are treated both as absolute paths, and relative to process.cwd()
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: [
-        'test/**', // tape, common npm pattern
-        'tests/**', // also common npm pattern
-        'spec/**', // mocha, rspec-like pattern
-        '**/__tests__/**', // jest pattern
-        'test.js', // repos with a single test file
-        'test-*.js', // repos with multiple top-level test files
-        '**/*.test.js', // tests where the extension denotes that it is a test
-        '**/webpack.config.js', // webpack config
-        '**/webpack.config.*.js', // webpack config
-        '**/rollup.config.js', // rollup config
-        '**/gulpfile.js', // gulp config
-        '**/gulpfile.*.js', // gulp config
-        '**/Gruntfile', // grunt config
+        // tape, common npm pattern
+        'test/**',
+        // also common npm pattern
+        'tests/**',
+        // mocha, rspec-like pattern
+        'spec/**',
+        // jest pattern
+        '**/__tests__/**',
+        // repos with a single test file
+        'test.js',
+        // repos with multiple top-level test files
+        'test-*.js',
+        // tests where the extension denotes that it is a test
+        '**/*.test.js',
+        // webpack config
+        '**/webpack.config.js',
+        // webpack config
+        '**/webpack.config.*.js',
+        // rollup config
+        '**/rollup.config.js',
+        // gulp config
+        '**/gulpfile.js',
+        // gulp config
+        '**/gulpfile.*.js',
+        // grunt config
+        '**/Gruntfile',
       ],
       optionalDependencies: false,
     }],

@@ -1,14 +1,14 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
     ecmaFeatures: {
       generators: false,
-      objectLiteralDuplicateProperties: false
-    }
+      objectLiteralDuplicateProperties: false,
+    },
   },
 
   rules: {
@@ -28,7 +28,7 @@ module.exports = {
     // http://eslint.org/docs/rules/arrow-spacing
     'arrow-spacing': ['error', {
       before: true,
-      after: true
+      after: true,
     }],
 
     // require super() calls in constructors
@@ -39,7 +39,7 @@ module.exports = {
     // http://eslint.org/docs/rules/generator-star-spacing
     'generator-star-spacing': ['error', {
       before: false,
-      after: true
+      after: true,
     }],
 
     // disallow reassigning class members
@@ -168,6 +168,6 @@ module.exports = {
 
     // require or disallow spacing around the * in yield* expressions
     // http://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': ['error', 'after']
-  }
+    'yield-star-spacing': ['error', 'after'],
+  },
 };

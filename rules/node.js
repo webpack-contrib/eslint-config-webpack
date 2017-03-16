@@ -2,7 +2,7 @@ module.exports = {
   env: {
     node: true,
     jest: true,
-    mocha: true
+    mocha: true,
   },
 
   rules: {
@@ -45,5 +45,5 @@ module.exports = {
     // disallow synchronous methods
     // http://eslint.org/docs/rules/no-sync
     'no-sync': 'off',
-  }
+  },
 };

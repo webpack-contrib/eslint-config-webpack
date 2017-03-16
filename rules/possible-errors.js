@@ -127,5 +127,5 @@ module.exports = {
     // enforce comparing typeof expressions against valid strings
     // http://eslint.org/docs/rules/valid-typeof
     'valid-typeof': ['error', { requireStringLiterals: true }],
-  }
+  },
 };

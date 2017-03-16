@@ -68,7 +68,7 @@ module.exports = {
     // require function names to match the name of the variable or property to which they are assigned
     // http://eslint.org/docs/rules/func-name-matching
     'func-name-matching': ['off', 'always', {
-      includeCommonJSModuleExports: false
+      includeCommonJSModuleExports: false,
     }],
 
     // require or disallow named function expressions
@@ -99,12 +99,12 @@ module.exports = {
       outerIIFEBody: 1,
       FunctionDeclaration: {
         parameters: 1,
-        body: 1
+        body: 1,
       },
       FunctionExpression: {
         parameters: 1,
-        body: 1
-      }
+        body: 1,
+      },
     }],
 
     // enforce the consistent use of either double or single quotes in JSX attributes
@@ -123,8 +123,8 @@ module.exports = {
       overrides: {
         return: { after: true },
         throw: { after: true },
-        case: { after: true }
-      }
+        case: { after: true },
+      },
     }],
 
     // enforce position of line comments
@@ -169,7 +169,7 @@ module.exports = {
     'max-lines': ['off', {
       max: 300,
       skipBlankLines: true,
-      skipComments: true
+      skipComments: true,
     }],
 
     // enforce a maximum depth that callbacks can be nested
@@ -245,9 +245,9 @@ module.exports = {
         ['&', '|', '^', '~', '<<', '>>', '>>>'],
         ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
         ['&&', '||'],
-        ['in', 'instanceof']
+        ['in', 'instanceof'],
       ],
-      allowSamePrecedence: false
+      allowSamePrecedence: false,
     }],
 
     // disallow mixed spaces and tabs for indentation
@@ -314,7 +314,7 @@ module.exports = {
     // http://eslint.org/docs/rules/object-curly-newline
     'object-curly-newline': ['off', {
       ObjectExpression: { minProperties: 0, multiline: true },
-      ObjectPattern: { minProperties: 0, multiline: true }
+      ObjectPattern: { minProperties: 0, multiline: true },
     }],
 
     // require padding inside curly braces
@@ -384,7 +384,7 @@ module.exports = {
     'space-before-function-paren': ['error', {
       anonymous: 'always',
       named: 'never',
-      asyncArrow: 'always'
+      asyncArrow: 'always',
     }],
 
     // enforce consistent spacing inside parentheses
@@ -415,7 +415,7 @@ module.exports = {
         exceptions: ['-', '+'],
         markers: ['=', '!'],
         balanced: false,
-      }
+      },
     }],
 
     // require or disallow Unicode byte order mark (BOM)
@@ -424,6 +424,6 @@ module.exports = {
 
     // require parenthesis around regex literals
     // http://eslint.org/docs/rules/wrap-regex
-    'wrap-regex': 'off'
-  }
+    'wrap-regex': 'off',
+  },
 };

@@ -27,7 +27,7 @@ module.exports = {
     'consistent-return': 'error',
 
     // enforce consistent brace style for all control statements
-    // http://eslint.org/docs/rules/curly
+    // http://eslint.org/docs/rules/curly
     curly: ['error', 'multi-line'],
 
     // require default cases in switch statements
@@ -77,7 +77,7 @@ module.exports = {
         'arrowFunctions',
         'functions',
         'methods',
-      ]
+      ],
     }],
 
     // disallow empty destructuring patterns
@@ -313,6 +313,6 @@ module.exports = {
 
     // require or disallow “Yoda” conditions
     // http://eslint.org/docs/rules/yoda
-    yoda: 'error'
-  }
+    yoda: 'error',
+  },
 };
