@@ -272,11 +272,11 @@ module.exports = {
 
     // disallow Object constructors
     // http://eslint.org/docs/rules/no-new-object
-    'no-new-object': ['error', { 'allowForLoopAfterthoughts': true }],
+    'no-new-object': 'error'
 
     // disallow the unary operators ++ and --
     // http://eslint.org/docs/rules/no-plusplus
-    'no-plusplus': 'error',
+    'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
 
     // disallow specified syntax
     // http://eslint.org/docs/rules/no-restricted-syntax
