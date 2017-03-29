@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.2.0...v1.2.1) (2017-03-29)
+
+
+### Bug Fixes
+
+* syntax error in stylistic rules ([3a0176f](https://github.com/webpack-contrib/eslint-config-webpack/commit/3a0176f))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.1.1...v1.2.0) (2017-03-29)
 
