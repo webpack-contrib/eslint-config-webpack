@@ -21,7 +21,7 @@
 ```bash
 npm i -D eslint-config-webpack
 ```
-
+asdf
 <h2 align="center">Usage</h2>
 
 Webpack's eslint config contains all of our ESLint rules, including ECMAScript 6+ and is similar to [Airbnb's ESLint base rules](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base). It requires `eslint` and `eslint-plugin-import`.
