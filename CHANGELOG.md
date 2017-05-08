@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.3"></a>
+## [1.2.3](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.2.2...v1.2.3) (2017-05-08)
+
+
+### Bug Fixes
+
+* **underscore-dangle:** added exception for __dirname ([#9](https://github.com/webpack-contrib/eslint-config-webpack/issues/9)) ([213c417](https://github.com/webpack-contrib/eslint-config-webpack/commit/213c417))
+
+
+
 <a name="1.2.2"></a>
 ## [1.2.2](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.2.1...v1.2.2) (2017-05-01)
 
