@@ -300,7 +300,7 @@ module.exports = {
 
     // disallow dangling underscores in identifiers
     // http://eslint.org/docs/rules/no-underscore-dangle
-    'no-underscore-dangle': ['error', { allowAfterThis: true }],
+    'no-underscore-dangle': ['error', { allow: ['__dirname'], allowAfterThis: true }],
 
     // disallow ternary operators when simpler alternatives exist
     // http://eslint.org/docs/rules/no-unneeded-ternary
