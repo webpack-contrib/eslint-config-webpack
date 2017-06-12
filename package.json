@@ -17,11 +17,11 @@
     "editorconfig-tools": "^0.1.1",
     "eslint": "^3.13.0",
     "eslint-find-rules": "^1.14.3",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-import": "^2.3.0",
     "standard-version": "^4.0.0"
   },
   "peerDependencies": {
-    "eslint": "^3.13.0 || ^4.0.0"
+    "eslint": "^3.13.0 || >=4.0.0"
   },
   "engines": {
     "node": ">= 4"
