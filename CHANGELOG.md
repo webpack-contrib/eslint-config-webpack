@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.4"></a>
+## [1.2.4](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.2.3...v1.2.4) (2017-06-12)
+
+
+### Bug Fixes
+
+* Allow eslint 4.x via peerDep ([74b078b](https://github.com/webpack-contrib/eslint-config-webpack/commit/74b078b))
+
+
+
 <a name="1.2.3"></a>
 ## [1.2.3](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.2.2...v1.2.3) (2017-05-08)
 
