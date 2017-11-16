@@ -190,7 +190,7 @@ module.exports = {
 
     // enforce newlines between operands of ternary expressions
     // http://eslint.org/docs/rules/multiline-ternary
-    'multiline-ternary': ['error', 'never'],
+    'multiline-ternary': ['error', 'always'],
 
     // require constructor names to begin with a capital letter
     // http://eslint.org/docs/rules/new-cap
