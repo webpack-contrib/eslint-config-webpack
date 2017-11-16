@@ -20,9 +20,7 @@ module.exports = {
 
     // require parentheses around arrow function arguments
     // http://eslint.org/docs/rules/arrow-parens
-    'arrow-parens': ['error', 'as-needed', {
-      requireForBlockBody: true,
-    }],
+    'arrow-parens': ['error', 'as-needed'],
 
     // enforce consistent spacing before and after the arrow in arrow functions
     // http://eslint.org/docs/rules/arrow-spacing
