@@ -54,15 +54,13 @@ module.exports = {
 
     // disallow unnecessary parentheses
     // http://eslint.org/docs/rules/no-extra-parens
-    'no-extra-parens': ['off', 'all', {
-      conditionalAssign: true,
-      nestedBinaryExpressions: false,
-      returnAssign: false,
-    }],
+    // This is handled by Prettier in Defaults 2.0
+    'no-extra-parens': 'off',
 
     // disallow unnecessary semicolons
     // http://eslint.org/docs/rules/no-extra-semi
-    'no-extra-semi': 'error',
+    // This is handled by Prettier in Defaults 2.0
+    'no-extra-semi': 'off',
 
     // disallow reassigning function declarations
     // http://eslint.org/docs/rules/no-func-assign
@@ -102,7 +100,8 @@ module.exports = {
 
     // disallow confusing multiline expressions
     // http://eslint.org/docs/rules/no-unexpected-multiline
-    'no-unexpected-multiline': 'error',
+    // This is handled by Prettier in Defaults 2.0
+    'no-unexpected-multiline': 'off',
 
     // disallow unreachable code after return, throw, continue, and break statements
     // http://eslint.org/docs/rules/no-unreachable
