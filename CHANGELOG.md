@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.2.5...v2.0.0) (2017-12-14)
+
+
+### Bug Fixes
+
+* **style issues:** Typo in `new parens` rule ([7b7c012](https://github.com/webpack-contrib/eslint-config-webpack/commit/7b7c012))
+
+
+### Code Refactoring
+
+* **best practices:** Update rules for Prettier integration ([385aac8](https://github.com/webpack-contrib/eslint-config-webpack/commit/385aac8))
+* **es6:** Update rules for Prettier integration ([2798140](https://github.com/webpack-contrib/eslint-config-webpack/commit/2798140))
+* **possible errors:** Update rules for Prettier integration ([c95baae](https://github.com/webpack-contrib/eslint-config-webpack/commit/c95baae))
+* **style issues:** Update rules for Prettier integration ([4018072](https://github.com/webpack-contrib/eslint-config-webpack/commit/4018072))
+
+
+### BREAKING CHANGES
+
+* **style issues:** Requires min eslint version of 4.x.
+* **style issues:** Multiple rules disabled and handled by Prettier, this will change code style for defaults based projects.
+
+Upgrade: After upgrading with defaults, any editor Prettier plugin can be used to update style. The pre-commit hook will also fix & write the prettier changes.
+* **possible errors:** Requires min eslint version of 4.x.
+* **possible errors:** Multiple rules disabled and handled by Prettier, this will change code style for defaults based projects.
+
+Upgrade: After upgrading with defaults, any editor Prettier plugin can be used to update style. The pre-commit hook will also fix & write the prettier changes.
+* **es6:** Requires min eslint version of 4.x.
+* **es6:** Multiple rules disabled and handled by Prettier, this will change code style for defaults based projects.
+
+Upgrade: After upgrading with defaults, any editor Prettier plugin can be used to update style. The pre-commit hook will also fix & write the prettier changes.
+* **best practices:** Requires min eslint version of 4.x.
+* **best practices:** Multiple rules disabled and handled by Prettier, this will change code style for defaults based projects.
+
+Upgrade: After upgrading with defaults, any editor Prettier plugin can be used to update style. The pre-commit hook will also fix & write the prettier changes.
+
+
+
 <a name="1.2.5"></a>
 ## [1.2.5](https://github.com/webpack-contrib/eslint-config-webpack/compare/v1.2.4...v1.2.5) (2017-06-12)
 
