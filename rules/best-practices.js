@@ -28,7 +28,8 @@ module.exports = {
 
     // enforce consistent brace style for all control statements
     // http://eslint.org/docs/rules/curly
-    curly: ['error', 'multi-line'],
+    // This is handled by Prettier in Defaults 2.0
+    curly: 'off',
 
     // require default cases in switch statements
     // http://eslint.org/docs/rules/default-case
@@ -36,7 +37,8 @@ module.exports = {
 
     // enforce consistent newlines before and after dots
     // http://eslint.org/docs/rules/dot-location
-    'dot-location': ['error', 'property'],
+    // This is handled by Prettier in Defaults 2.0
+    'dot-location': 'off',
 
     // enforce dot notation whenever possible
     // http://eslint.org/docs/rules/dot-notation
@@ -110,7 +112,8 @@ module.exports = {
 
     // disallow leading or trailing decimal points in numeric literals
     // http://eslint.org/docs/rules/no-floating-decimal
-    'no-floating-decimal': 'error',
+    // This is handled by Prettier in Defaults 2.0
+    'no-floating-decimal': 'off',
 
     // disallow assignments to native objects or read-only global variables
     // http://eslint.org/docs/rules/no-global-assign
@@ -164,7 +167,8 @@ module.exports = {
 
     // disallow multiple spaces
     // http://eslint.org/docs/rules/no-multi-spaces
-    'no-multi-spaces': 'error',
+    // This is handled by Prettier in Defaults 2.0
+    'no-multi-spaces': 'off',
 
     // disallow multiline strings
     // http://eslint.org/docs/rules/no-multi-str
@@ -309,7 +313,8 @@ module.exports = {
 
     // require parentheses around immediate function invocations
     // http://eslint.org/docs/rules/wrap-iife.html
-    'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
+    // This is handled by Prettier in Defaults 2.0
+    'wrap-iife': 'off',
 
     // require or disallow “Yoda” conditions
     // http://eslint.org/docs/rules/yoda
