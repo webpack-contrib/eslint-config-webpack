@@ -186,7 +186,7 @@ module.exports = {
     // require parentheses when invoking a constructor with no arguments
     // http://eslint.org/docs/rules/new-parens
     // This is handled by Prettier in Defaults 2.0
-    'new-parens': 'pff',
+    'new-parens': 'off',
 
     // require or disallow an empty line after variable declarations
     // http://eslint.org/docs/rules/newline-after-var
