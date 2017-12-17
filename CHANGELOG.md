@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.2"></a>
+## [2.0.2](https://github.com/webpack-contrib/eslint-config-webpack/compare/v2.0.1...v2.0.2) (2017-12-17)
+
+
+### Bug Fixes
+
+* All nested ternary ([943e3f9](https://github.com/webpack-contrib/eslint-config-webpack/commit/943e3f9))
+* Warn for dynamic require ([93154f3](https://github.com/webpack-contrib/eslint-config-webpack/commit/93154f3))
+* Warn for global require ([f805656](https://github.com/webpack-contrib/eslint-config-webpack/commit/f805656))
+* Warn on deconstructing ([5c281f1](https://github.com/webpack-contrib/eslint-config-webpack/commit/5c281f1))
+* Warn on param reasign ([9067359](https://github.com/webpack-contrib/eslint-config-webpack/commit/9067359))
+
+
+
 <a name="2.0.1"></a>
 ## [2.0.1](https://github.com/webpack-contrib/eslint-config-webpack/compare/v2.0.0...v2.0.1) (2017-12-14)
 
