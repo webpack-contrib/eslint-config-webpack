@@ -246,7 +246,7 @@ module.exports = {
 
     // disallow nested ternary expressions
     // http://eslint.org/docs/rules/no-nested-ternary
-    'no-nested-ternary': 'error',
+    'no-nested-ternary': 'off',
 
     // disallow Object constructors
     // http://eslint.org/docs/rules/no-new-object
