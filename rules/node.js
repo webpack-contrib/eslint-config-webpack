@@ -12,7 +12,7 @@ module.exports = {
 
     // require require() calls to be placed at top-level module scope
     // http://eslint.org/docs/rules/global-require
-    'global-require': 'error',
+    'global-require': 'warn',
 
     // require error handling in callbacks
     // http://eslint.org/docs/rules/handle-callback-err
