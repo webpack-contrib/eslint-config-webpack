@@ -147,7 +147,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
     'import/order': ['error', {
       groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-      'newlines-between': 'never',
+      'newlines-between': 'always-and-inside-groups',
     }],
 
     // Require a newline after the last import/require in a group
