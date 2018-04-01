@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.4"></a>
+## [2.0.4](https://github.com/webpack-contrib/eslint-config-webpack/compare/v2.0.3...v2.0.4) (2018-04-01)
+
+
+### Bug Fixes
+
+* **import/order:** Incorrect config syntax ([fe40e36](https://github.com/webpack-contrib/eslint-config-webpack/commit/fe40e36))
+
+
+
 <a name="2.0.3"></a>
 ## [2.0.3](https://github.com/webpack-contrib/eslint-config-webpack/compare/v2.0.2...v2.0.3) (2018-04-01)
 
