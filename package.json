@@ -1,6 +1,6 @@
 {
   "name": "@webpack-contrib/eslint-config-webpack",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "author": "Joshua Wiens (https://twitter.com/@d3viant0ne)",
   "license": "MIT",
   "description": "Provides Webpacks's .eslintrc as an extensible shared config",
