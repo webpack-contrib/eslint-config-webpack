@@ -9,11 +9,12 @@ module.exports = {
     './rules/es2015'
   ].map(require.resolve),
   parserOptions: {
-    ecmaVersion: 2017,
-    sourceType: 'module',
-    ecmaFeatures: {
-      experimentalObjectRestSpread: true,
+    ecmaVersion: 2018,
+    env: {
+      es6: true,
+      jest: true
     },
+    sourceType: 'module'
   },
   rules: {
     strict: 'error',
