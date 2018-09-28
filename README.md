@@ -58,8 +58,8 @@ _In your .eslintrc.js || .yml || .json add ..._
 </table>
 
 
-[npm]: https://img.shields.io/npm/v/eslint-config-webpack.svg
-[npm-url]: https://npmjs.com/package/eslint-config-webpack
+[npm]: https://img.shields.io/npm/v/@webpack-contrib/eslint-config-webpack.svg
+[npm-url]: https://npmjs.com/package/@webpack-contrib/eslint-config-webpack
 
 [deps]: https://david-dm.org/webpack-contrib/eslint-config-webpack.svg
 [deps-url]: https://david-dm.org/webpack-contrib/eslint-config-webpack
