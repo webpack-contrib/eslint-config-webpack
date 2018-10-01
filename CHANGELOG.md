@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/webpack-contrib/eslint-config-webpack/compare/v2.0.4...v3.0.0) (2018-10-01)
+
+
+### Chores
+
+* **package:** update `eslint` v4.13.1...5.6.0 (`devDependencies|peerDependencies`) ([a5a6594](https://github.com/webpack-contrib/eslint-config-webpack/commit/a5a6594))
+
+
+### BREAKING CHANGES
+
+* **package:** minimum require `eslint` version is now `5.6.0`
+
+
+
 <a name="2.0.4"></a>
 ## [2.0.4](https://github.com/webpack-contrib/eslint-config-webpack/compare/v2.0.3...v2.0.4) (2018-04-01)
 
