@@ -28,8 +28,7 @@ module.exports = {
 
     // enforce consistent brace style for all control statements
     // http://eslint.org/docs/rules/curly
-    // This is handled by Prettier in Defaults 2.0
-    curly: 'off',
+    curly: 'error',
 
     // require default cases in switch statements
     // http://eslint.org/docs/rules/default-case
