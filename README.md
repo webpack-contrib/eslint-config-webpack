@@ -9,8 +9,7 @@
   <img width="200" height="200"
     src="https://cdn.worldvectorlogo.com/logos/eslint.svg">
   <a href="https://github.com/webpack/webpack">
-    <img width="200" height="200" vspace="" hspace="25"
-      src="https://worldvectorlogo.com/logos/webpack.svg">
+    <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
   <h1>ESLint Config Webpack</h1>
   <p>Provides Webpacks's .eslintrc as an extensible shared config.<p>
