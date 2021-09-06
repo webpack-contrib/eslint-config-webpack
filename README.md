@@ -32,7 +32,7 @@ _In your .eslintrc.js || .yml || .json add ..._
 ```js
 // Add to your .eslintrc
 
-"extends": "webpack"
+"extends": "@webpack-contrib/eslint-config-webpack"
 ```
 
 <h2 align="center">Maintainers</h2>

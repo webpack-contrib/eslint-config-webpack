@@ -16,16 +16,17 @@
   },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
-    "eslint": "^5.6.0",
-    "eslint-find-rules": "^3.1.1",
-    "eslint-plugin-import": "^2.23.2",
-    "standard-version": "^9.3.0"
+    "eslint": "^8.2.0",
+    "eslint-find-rules": "^4.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "standard-version": "^9.3.1"
   },
   "peerDependencies": {
-    "eslint": ">= 5.0.0"
+    "eslint": "^7.0.0 || ^8.0.0",
+    "eslint-plugin-import": "^2.25.0"
   },
   "engines": {
-    "node": ">= 6.9.0 || >= 8.9.0"
+    "node": ">=12.13"
   },
   "repository": {
     "type": "git",
