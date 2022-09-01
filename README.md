@@ -1,5 +1,4 @@
 [![npm][npm]][npm-url]
-[![deps][deps]][deps-url]
 [![test][test]][test-url]
 [![coverage][cover]][cover-url]
 [![chat][chat]][chat-url]
@@ -59,9 +58,6 @@ _In your .eslintrc.js || .yml || .json add ..._
 
 [npm]: https://img.shields.io/npm/v/@webpack-contrib/eslint-config-webpack.svg
 [npm-url]: https://npmjs.com/package/@webpack-contrib/eslint-config-webpack
-
-[deps]: https://david-dm.org/webpack-contrib/eslint-config-webpack.svg
-[deps-url]: https://david-dm.org/webpack-contrib/eslint-config-webpack
 
 [chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
 [chat-url]: https://gitter.im/webpack/webpack
